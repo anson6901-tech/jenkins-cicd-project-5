@@ -21,7 +21,7 @@ pipeline {
         EKS_CLUSTER = 'cicd-cluster'
         // ----------------------
 
-        IMAGE_TAG    = "${BUILD_NUMBER}"
+        IMAGE_TAG    = "${BUILD_NUMBER}
         ECR_REGISTRY = "${ECR_ACCOUNT}.dkr.ecr.${AWS_REGION}.amazonaws.com"
         IMAGE        = "${ECR_REGISTRY}/${ECR_REPO}"
 
