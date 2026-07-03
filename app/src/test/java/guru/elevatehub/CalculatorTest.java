@@ -23,4 +23,11 @@ class CalculatorTest {
         assertEquals(4, calculator.subtract(5, 1));
         assertEquals(-2, calculator.subtract(1, 3));
     }
+
+    @Test
+void testMultiply() {
+    Calculator calculator = new Calculator();
+    assertEquals(6, calculator.multiply(2, 3));
+}
+
 }

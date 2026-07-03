@@ -71,9 +71,5 @@ public class App {
         return params;
     }
 
-    @Test
-void testMultiply() {
-    Calculator calculator = new Calculator();
-    assertEquals(6, calculator.multiply(2, 3));
-}
+
 }
